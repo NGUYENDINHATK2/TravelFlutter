@@ -1,0 +1,21 @@
+  Positioned(
+                bottom: 0,
+                right: 20,
+                left: 20,
+                child: Row(
+                  children: [
+                    AppButton(
+                        color: AppColors.textColor2,
+                        backgroundColor: Colors.white,
+                        size: 60,
+                        icon: Icons.favorite_border,
+                        isIcon: true,
+                        borderColor: AppColors.textColor2),
+                    const SizedBox(
+                      width: 10,
+                    ),
+                    ResponsiveButton(
+                      isResponsive: true,
+                    )
+                  ],
+                )),
